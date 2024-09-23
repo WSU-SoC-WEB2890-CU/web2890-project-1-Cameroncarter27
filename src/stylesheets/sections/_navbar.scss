@@ -1,0 +1,11 @@
+nav {
+    width: 100%;
+    a.nav-link {
+        border-right: 1px solid $dark-gray;
+        padding: 0 .5rem;
+       
+    }
+    a.nav-link:nth-child(5) {
+        border-right: none;
+    }
+}

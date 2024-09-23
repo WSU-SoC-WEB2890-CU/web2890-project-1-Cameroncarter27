@@ -1,0 +1,49 @@
+#advantages {
+    .bg-secondary {
+        padding: 1rem 0;
+    }
+    
+
+    .container {
+        margin-bottom: 1rem;
+    }
+
+
+    .card {
+        text-align: center;
+        border: 1px solid $primary;
+        border-radius: 1rem;
+        margin: .5rem;
+        height: 20vh;
+        width: 100%;
+    }
+    .card-body{
+        padding: .5rem;
+        
+    }
+    
+    
+}
+@media screen and (max-width: 768px) {
+    #advantages {
+        
+        
+        h1 {
+            font-size: 2rem;
+        }
+        
+        
+    }
+    
+}
+
+@media screen and (max-width: 576px) {
+    #advantages {
+        .bg-secondary{
+            padding-right: 1rem;
+        }
+        
+        
+    }
+
+}

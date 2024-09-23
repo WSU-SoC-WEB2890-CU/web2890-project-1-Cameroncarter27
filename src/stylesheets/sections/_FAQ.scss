@@ -1,0 +1,33 @@
+#faq {
+
+    margin: 1rem 5rem;
+
+    .accordion {
+        border-top: 1px solid $secondary;
+        border-bottom: 1px solid $secondary;
+
+    }
+
+    .accordion-item {
+        border: 1px solid $secondary;
+        margin-bottom: 1rem;
+
+    }
+
+    .accordion-item:nth-child(6) {
+        margin-bottom: 0;
+    }
+
+    button.btn {
+        margin: 1rem 0;
+        padding: .5rem 2rem;
+        
+        border-radius: 1rem;
+        
+        
+    }
+    button.btn:hover {
+        border: 3px solid $dark-gray;
+        font-weight: 700;
+    }
+}

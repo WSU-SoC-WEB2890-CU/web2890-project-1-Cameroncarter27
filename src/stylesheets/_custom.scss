@@ -1,0 +1,71 @@
+// Colors
+// $darker-blue: #328daa;
+$darker-blue: #276D82;
+$light-blue: #8ed3f4;
+$dark-gray: #5a4d4c;
+$light: #e4ebf2;
+$light-gray: #8a8683;
+
+$primary: $darker-blue;
+$secondary: $light;
+$success: $light-blue;
+
+//Card height
+$card-height: 100%;
+
+// $navbar-light-toggler-border-color
+.flex-1 {
+    flex:1;
+}
+
+* {
+    font-family: 'Raleway';
+}
+
+h1 {
+    font-family: 'Libre baskerville';
+}
+
+
+#advantages h5 {
+    color: $primary;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .hero {
+        height: 80vh;
+
+        h1.display-2 {
+            font-size: 3rem;
+        }
+
+        h1.display-6 {
+            font-size: 2rem;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .hero {
+        height: 80vh;
+
+        h1.display-2 {
+            font-size: 2rem;
+        }
+
+        h1.display-6 {
+            font-size: 1.5rem;
+        }
+    }
+    
+}
+
+
+
+
+
+@import "bootstrap/scss/bootstrap.scss";
+@import "bootstrap-icons/font/bootstrap-icons.css";

@@ -1,23 +1,32 @@
-.purchases {
-    padding-bottom: 4rem;
-    padding-top:5rem;
+#purchases {
+    .bg-secondary {
+        padding-bottom: 4rem;
+        padding-top: 5rem;
+    }
 
     .card {
         border: 1px solid $primary;
         border-radius: 1rem;
     }
+
     ul {
         list-style-type: none;
         padding-left: 0;
     }
+
     span {
         color: $primary;
         font-size: 1.5rem;
     }
+
     strong {
         color: $dark-gray;
-        
+
     }
 
-    
+    .accordion-item {
+        border: none;
+    }
+
+
 }
